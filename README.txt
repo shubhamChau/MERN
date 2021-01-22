@@ -17,17 +17,17 @@ the scheduled meeting is returned as response to the request.
 
 
 2. for getting meeting with id :-
-url - "meeting/:id"
+url - "/meeting/:id"
 request type - GET
 The meeting with the provided id is returned as response.
 
 3. for getting meetings within a time frame
-url - "meetings/?start=dd-mm-yy||aa:bb&end=dd-mm-yyyy||aa:bb"
+url - "/meetings/?start=dd-mm-yy||aa:bb&end=dd-mm-yyyy||aa:bb"
 request type - GET
 An array of meetings that fall with the mentioned within time limits is returned as the response
 
 4. for getting all meetings of a participant with given email id.
-url - "meeting/participant=<email>"
+url - "/meeting/participant=<email>"
 request type - GET
 An array of all meetings of the participant is returned as the response.
 
